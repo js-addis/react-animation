@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Box, styled, Typography } from '@mui/material';
-
+import './App.css'
 
 const Text = styled(Typography)(({theme}) => ({
   [theme.breakpoints.down('sm')]: {
